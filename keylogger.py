@@ -1,5 +1,4 @@
 import keyboard
-from time import sleep
 def key_press(event):
     name = event.name
     if len(name)>1:
